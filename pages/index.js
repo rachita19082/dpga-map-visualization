@@ -265,7 +265,7 @@ export default function Home() {
   const [gigaChecked, setGigaChecked] = useState(true);
 
 
-  const options = {
+  /*const options = {
     sheetId: process.env.NEXT_PUBLIC_SHEET,
     sheetNumber: 1,
     returnAllResults: true,
@@ -363,20 +363,20 @@ export default function Home() {
       addFundCountries(results, 'fund');
     });
 
-  }, []);
+  }, []);*/
 
   const MapComponent = dynamic(import('../components/mapComponent'),{
     ssr: false
   })
 
-  function handleChange(event){
+  /*function handleChange(event){
     switch(event.target.id){
       case 'giga':
         setGigaChecked(!gigaChecked);
         setGigaCountries([])
     }
     
-  }
+  }*/
 
   return (
     <div className="main">

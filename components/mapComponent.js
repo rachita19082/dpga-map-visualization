@@ -86,7 +86,7 @@ export default function mapComponent(props) {
                     'fill-color': '#db3d44', // this is the color you want your tileset to have (red)
                     // 'fill-outline-color': '#F2F2F2', //this helps us distinguish individual countries a bit better by giving them an outline
                     //"fill-pattern": "grey-lines",
-                    'fill-opacity': 0.3,
+                    'fill-opacity': 0.4,
                   },
                 }, firstSymbolId)
                 map.setLayoutProperty('Deployment Countries', 'visibility', 'visible');
