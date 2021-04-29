@@ -393,7 +393,7 @@ export default function Home() {
           <SideNav.Toggle style={{ color: "black"}}/>
           <br></br>
           <br></br>
-          <div className="dpg_name"> <b>VIPS</b> </div>
+          <div className="dpg_name"> <b>Mojaloop</b> </div>
           <SideNav.Nav defaultSelected="home">
               <NavItem eventKey="development">
                   <NavIcon>

@@ -67,7 +67,7 @@ export default function mapComponent(props) {
 
                 map.setFilter(
                     'Development Countries',
-                    ['in', 'ADM0_A3_IS'].concat(['NOR']),
+                    ['in', 'ADM0_A3_IS'].concat(['USA', 'GBR', 'KEN', 'ZAF', 'IND', 'PHL', 'SGP']),
                     //['in', 'ADM0_A3_IS'].concat(Object.keys(props.fundCountries)),
                   ); // This line lets us filter by country codes.
 
@@ -85,7 +85,6 @@ export default function mapComponent(props) {
                   paint: {
                     'fill-color': '#db3d44', // this is the color you want your tileset to have (red)
                     // 'fill-outline-color': '#F2F2F2', //this helps us distinguish individual countries a bit better by giving them an outline
-                    //"fill-pattern": "grey-lines",
                     'fill-opacity': 0.4,
                   },
                 }, firstSymbolId)
@@ -93,14 +92,7 @@ export default function mapComponent(props) {
 
                 map.setFilter(
                     'Deployment Countries',
-                    /*[
-                      "in",
-                      "iso_3166_1_alpha_3",
-                      'IND',
-                      'KHM'
-                    ]*/
-                    ['in', 'ADM0_A3_IS'].concat(['IND', 'NOR', 'SWE']),
-                    //['in', 'ADM0_A3_IS'].concat(Object.keys(props.gigaCountries)),
+                    ['in', 'ADM0_A3_IS'].concat(['TZA', 'UGA', 'CIV']),
                   ); // This line lets us filter by country codes.
                   
                   
