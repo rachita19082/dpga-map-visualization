@@ -1,4 +1,4 @@
-<h1 align="center">Map Visualization of UNICEF Digital Public Goods <br/> Development and Deployment Countries</h1>
+<h2 align="center">Map Visualization of UNICEF Digital Public Goods <br/> Development and Deployment Countries</h2>
 
 This repository was conceived as a very simple tool to visualize on a map the various multiple dimensions of data related to the geographic extent of digital public goods. 
 
