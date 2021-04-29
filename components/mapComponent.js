@@ -60,7 +60,7 @@ export default function mapComponent(props) {
                     paint: {
                       // 'fill-color': '#db3d44', // this is the color you want your tileset to have (red)
                       'fill-color': '#1CABE2', //this helps us distinguish individual countries a bit better by giving them an outline
-                      'fill-opacity': 0.6,
+                      'fill-opacity': 0.4,
                     },
                 }, firstSymbolId)
                 map.setLayoutProperty('Development Countries', 'visibility', 'visible');
@@ -85,7 +85,7 @@ export default function mapComponent(props) {
                   paint: {
                     'fill-color': '#db3d44', // this is the color you want your tileset to have (red)
                     // 'fill-outline-color': '#F2F2F2', //this helps us distinguish individual countries a bit better by giving them an outline
-                    'fill-opacity': 0.4,
+                    'fill-opacity': 0.5,
                   },
                 }, firstSymbolId)
                 map.setLayoutProperty('Deployment Countries', 'visibility', 'visible');
