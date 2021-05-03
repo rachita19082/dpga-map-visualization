@@ -59,10 +59,6 @@ Setup your development environment as follows:
     npm run dev
     ```
 
-## 💙 About UNICEF
-
-[UNICEF](https://www.unicef.org/) works in over 190 countries and territories to protect the rights of every child. UNICEF has spent more than 70 years working to improve the lives of children and their families. In UNICEF, **we believe all children have a right to survive, thrive and fulfill their potential – to the benefit of a better world**.
-
 This project has been developed after modifying the orginal source code from the [Visualization of UNICEF Office of Innovation (OoI) repository](https://github.com/lacabra/ooi-project-visualization) which is licensed under the [GNU General Public License](LICENSE)
 
 
