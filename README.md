@@ -43,15 +43,15 @@ Setup your development environment as follows:
 1. Clone this repo:
     - SSL:
     ```bash
-    git clone git@github.com:lacabra/ooi-project-visualization.git
+    git clone git@github.com:rachita19082/dpga-map-visualization.git
     ```
     - HTTPS:
     ```bash
-    git clone https://github.com/lacabra/ooi-project-visualization.git
+    git clone https://github.com/rachita19082/dpga-map-visualization.git
     ```
 2. Install project dependencies:
     ```bash
-    cd ooi-project-visualization
+    cd dpga-map-visualization
     npm install
     ```
 3. After having set up the proper [Configuration](#%EF%B8%8F-configuration), run the development server with [fast refresh](https://nextjs.org/docs/basic-features/fast-refresh):
